@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Account</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f3f3;
+}
+
+h2{
+    text-align:center;
+}
+
+table{
+    margin:auto;
+    border:1px solid #ccc;
+    padding:30px;
+    background:white;
+}
+
+td{
+    padding:10px;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    box-sizing:border-box;
+}
+
+input[type="checkbox"]{
+    width:auto;
+    margin-right:8px;
+}
+
+button{
+    background:#3b5fe2;
+    color:white;
+    border:none;
+    padding:10px 35px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2f4ec7;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Create Account</h2>
+
+<form>
+
+<table>
+
+<tr>
+<td>
+<label>First Name</label>
+<input type="text" placeholder="First Name">
+</td>
+
+<td>
+<label>Last Name</label>
+<input type="text" placeholder="Last Name">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<label>Country</label>
+<select>
+<option disabled selected>Country</option>
+<option>Indonesia</option>
+<option>Japan</option>
+<option>South Korea</option>
+<option>China</option>
+<option>Other</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Email Address</label>
+<input type="email" placeholder="Email Address">
+</td>
+
+<td>
+<label>Phone Number</label>
+<input type="text" placeholder="Phone Number">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Password</label>
+<input type="password" placeholder="Password">
+</td>
+
+<td>
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm Password">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="checkbox" id="terms">
+<label for="terms">Terms and Conditions</label>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<button type="submit">Create</button>
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>

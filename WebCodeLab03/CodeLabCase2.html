@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Details</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f3f3;
+}
+
+h2{
+    text-align:center;
+}
+
+table{
+    margin:auto;
+    border:1px solid #ccc;
+    padding:30px;
+    background:white;
+}
+
+td{
+    padding:10px;
+    vertical-align:top;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    box-sizing:border-box;
+}
+
+input[type="radio"]{
+    width:auto;
+}
+
+button{
+    background:#3b5fe2;
+    color:white;
+    border:none;
+    padding:10px 35px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2f4ec7;
+}
+
+.section{
+    font-weight:bold;
+    padding-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Employee Details</h2>
+
+<form>
+
+<table>
+
+<tr>
+<td colspan="2" class="section">01. Personal Information</td>
+</tr>
+
+<tr>
+<td>
+<label>Employee Name *</label>
+<input type="text" placeholder="First Name">
+</td>
+
+<td>
+<label>Last Name</label>
+<input type="text" placeholder="Last Name">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Starting Date</label>
+<input type="date">
+</td>
+
+<td>
+<label>Birth Date</label>
+<input type="date">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Employee Type</label>
+<select>
+<option>Select</option>
+<option>Full Time</option>
+<option>Part Time</option>
+<option>Intern</option>
+</select>
+</td>
+
+<td>
+<label>Gender</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Position</label>
+<input type="text" placeholder="Position">
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td colspan="2" class="section">02. Location</td>
+</tr>
+
+<tr>
+<td>
+<label>City</label>
+<input type="text" placeholder="City">
+</td>
+
+<td>
+<label>State</label>
+<input type="text" placeholder="State">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>ZIP</label>
+<input type="text" placeholder="ZIP">
+</td>
+
+<td>
+<label>Address</label>
+<textarea rows="4" placeholder="Address"></textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" class="section">03. Contact Information</td>
+</tr>
+
+<tr>
+<td>
+<label>Phone</label>
+<input type="text" placeholder="Phone">
+</td>
+
+<td>
+<label>Email</label>
+<input type="email" placeholder="Email">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<button type="submit">Register</button>
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
