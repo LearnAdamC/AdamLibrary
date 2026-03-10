@@ -18,18 +18,16 @@ color:white;
 }
 
 .container{
-width:1100px;
+width:900px;
 margin:auto;
 }
 
 /* PROFILE */
 
 .hero{
-display:flex;
-justify-content:space-between;
-align-items:center;
 padding:80px 0;
 border-bottom:1px solid rgba(255,255,255,0.05);
+text-align:center;
 }
 
 .profile h1{
@@ -42,31 +40,20 @@ color:#9ca3af;
 margin:5px 0;
 }
 
-/* PHOTO */
-
-.photo img{
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-border:3px solid #6366f1;
-box-shadow:0 0 30px rgba(99,102,241,0.6);
-}
-
 /* TITLE */
 
 .section-title{
 margin-top:60px;
 margin-bottom:25px;
 font-size:24px;
+text-align:center;
 }
 
 /* GRID */
 
 .grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:25px;
+display:flex;
+justify-content:center;
 }
 
 /* CARD */
@@ -78,6 +65,8 @@ border-radius:14px;
 border:1px solid rgba(255,255,255,0.05);
 cursor:pointer;
 transition:0.3s;
+width:300px;
+text-align:center;
 }
 
 .card:hover{
@@ -118,6 +107,7 @@ margin-top:80px;
 padding:35px;
 background:#111827;
 border-radius:14px;
+text-align:center;
 }
 
 .contact p{
@@ -147,16 +137,8 @@ font-size:13px;
 <div class="profile">
 
 <h1>Adam Chesta Budi</h1>
-
 <p>Teknik Informatika</p>
-
 <p>312310002</p>
-
-</div>
-
-<div class="photo">
-
-<img src="pictureself.png">
 
 </div>
 
@@ -165,30 +147,6 @@ font-size:13px;
 <h2 class="section-title">Tugas Web Coding</h2>
 
 <div class="grid">
-
-<div class="card" onclick="location.href='WebCodeLab01/'">
-
-<h3>Web Code Lab 01</h3>
-
-<p>Web Technology Fundamentals and Architecture</p>
-
-<div class="date">24 Feb 2026</div>
-
-<a class="button">Open Lab</a>
-
-</div>
-
-<div class="card" onclick="location.href='WebCodeLab02/'">
-
-<h3>Web Code Lab 02</h3>
-
-<p>HTML Fundamentals</p>
-
-<div class="date">5 March 2026</div>
-
-<a class="button">Open Lab</a>
-
-</div>
 
 <div class="card" onclick="location.href='WebCodeLab03/'">
 
@@ -209,7 +167,6 @@ font-size:13px;
 <div class="contact">
 
 <p>Email : adamraspberry5@gmail.com</p>
-
 <p>Phone : +6285607711200</p>
 
 </div>
