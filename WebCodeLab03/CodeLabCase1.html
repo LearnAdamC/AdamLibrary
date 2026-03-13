@@ -1,134 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Create Account</title>
+    <body>
 
-<style>
+        <h2>Crate Account</h2>
 
-body{
-    font-family: Arial, sans-serif;
-    background:#f3f3f3;
-}
+        <form>
 
-h2{
-    text-align:center;
-}
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
 
-table{
-    margin:auto;
-    border:1px solid #ccc;
-    padding:30px;
-    background:white;
-}
+            <select id="country" name="country">
+                <option value="" disabled selected>Select Country </option>
+                <option value="indonesia">Indonesia</option>
+                <option value="japan">Japan</option>
+                <option value="Skorea">South Korea</option>
+                <option value="china">China</option>
+                <option value="other">Other</option>
 
-td{
-    padding:10px;
-}
+            </select><br><br>
 
-input, select{
-    width:100%;
-    padding:8px;
-    margin-top:5px;
-    border:1px solid #ccc;
-    border-radius:3px;
-    box-sizing:border-box;
-}
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <input type="text" id="nphone" name="nphone" placeholder="Phone Number"><br><br>
 
-input[type="checkbox"]{
-    width:auto;
-    margin-right:8px;
-}
+            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="password" id="password1" name="password1" placeholder="Confirm Password"><br><br>
 
-button{
-    background:#3b5fe2;
-    color:white;
-    border:none;
-    padding:10px 35px;
-    border-radius:6px;
-    cursor:pointer;
-}
+            <input type="checkbox" id="kotak" name="kotak">
+            <label for="kotak">Terms and Conditions</label><br><br>
 
-button:hover{
-    background:#2f4ec7;
-}
+            <input type="submit" value="Create">
+        </form>
 
-</style>
-</head>
-
-<body>
-
-<h2>Create Account</h2>
-
-<form>
-
-<table>
-
-<tr>
-<td>
-<label>First Name</label>
-<input type="text" placeholder="First Name">
-</td>
-
-<td>
-<label>Last Name</label>
-<input type="text" placeholder="Last Name">
-</td>
-</tr>
-
-<tr>
-<td colspan="2">
-<label>Country</label>
-<select>
-<option disabled selected>Country</option>
-<option>Indonesia</option>
-<option>Japan</option>
-<option>South Korea</option>
-<option>China</option>
-<option>Other</option>
-</select>
-</td>
-</tr>
-
-<tr>
-<td>
-<label>Email Address</label>
-<input type="email" placeholder="Email Address">
-</td>
-
-<td>
-<label>Phone Number</label>
-<input type="text" placeholder="Phone Number">
-</td>
-</tr>
-
-<tr>
-<td>
-<label>Password</label>
-<input type="password" placeholder="Password">
-</td>
-
-<td>
-<label>Confirm Password</label>
-<input type="password" placeholder="Confirm Password">
-</td>
-</tr>
-
-<tr>
-<td colspan="2">
-<input type="checkbox" id="terms">
-<label for="terms">Terms and Conditions</label>
-</td>
-</tr>
-
-<tr>
-<td colspan="2" align="center">
-<button type="submit">Create</button>
-</td>
-</tr>
-
-</table>
-
-</form>
-
-</body>
+    </body>
 </html>
