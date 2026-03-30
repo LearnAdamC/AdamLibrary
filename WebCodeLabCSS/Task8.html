@@ -4,18 +4,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 
+
 <body>
 
-<div class="w3-container">
-    <div class="w3-container w3-center">
-      <div>
-      <img src="img_avatar.png" alt="Avatar" style="width:30%">
-      </div>
-      <b>UCUP</b>
-      <h5>Seorang Manusia Biasa</h5>
-    </div>
-</div>
-    
+<div style="display:flex;">
+
+  <div class="w3-container">
+    <img src="img_avatar.png" style="width:80%">
+    <h3>UCUP</h3>
+    <p>Seorang Manusia Biasa</p>
+  </div>
+
+  <div class="w3-container">
     <div class="w3-bar w3-black">
       <button class="w3-bar-item w3-button" onclick="openCity('Informasi')">Informasi</button>
       <button class="w3-bar-item w3-button" onclick="openCity('Hobi')">Hobi</button>
@@ -41,6 +41,10 @@
       <p>Online: 18:00 - 22:00</p>
       <p>Weekend: Free</p>
     </div>
+
+  </div>
+
+</div>
 
 <script>
 function openCity(cityName) {
