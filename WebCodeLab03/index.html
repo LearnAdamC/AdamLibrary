@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Code Lab 03</title>
+<title>Web Code Lab CSS</title>
 
 <style>
 
@@ -23,71 +23,66 @@ margin:auto;
 padding:60px 0;
 }
 
-a{
-text-decoration:none;
+/* BACK */
+
+.back{
 color:#818cf8;
+text-decoration:none;
+display:inline-block;
+margin-bottom:30px;
 }
 
 /* TITLE */
 
-.title{
-margin-bottom:20px;
+h1{
+margin-bottom:15px;
 }
 
-/* DESCRIPTION */
+/* DESC */
 
 .desc{
 color:#9ca3af;
-margin-bottom:20px;
 line-height:1.6;
+margin-bottom:20px;
 }
+
+/* DATE */
 
 .date{
 color:#818cf8;
 margin-bottom:30px;
 }
 
-/* TASK LIST */
+/* TASK */
 
 .task{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
-
-padding:16px 20px;
-
 background:#111827;
-
+padding:15px 20px;
 border-radius:10px;
-
 margin-bottom:12px;
-
 transition:0.3s;
-
 }
 
 .task:hover{
 background:#1f2937;
 }
 
-.open{
-
-background:linear-gradient(90deg,#6366f1,#8b5cf6);
-
-padding:6px 14px;
-
-border-radius:6px;
-
-color:white;
-
-font-size:13px;
-
+.task span{
+color:#d1d5db;
 }
 
-.back{
-margin-bottom:30px;
-display:inline-block;
+/* BUTTON */
+
+.open{
+background:linear-gradient(90deg,#6366f1,#8b5cf6);
+padding:6px 14px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-size:13px;
 }
 
 </style>
@@ -100,83 +95,56 @@ display:inline-block;
 
 <a class="back" href="../index.html">← Back to Home</a>
 
-<h1 class="title">Web Code Lab 03</h1>
+<h1>Web Code Lab CSS</h1>
 
 <p class="desc">
-These sessions focus on HyperText Markup Language (HTML), the essential
-standard for creating the structure of web pages. Students learn to construct
-semantic document structures, utilize various tags for text formatting and
-media embedding, and create interactive elements such as forms and tables.
+This week introduces Cascading Style Sheets (CSS) to control the visual presentation of web pages. 
+The discussion covers core concepts including selectors, the box model, color theory, and typography, 
+enabling students to separate content from design and create visually appealing layouts.
 </p>
 
-<div class="date">
-Class 03 – 10 | 12 March 2026
-</div>
+<div class="date">Class 04 – 17 & 19 March 2026</div>
 
-
-<div class="task">
-<span>Task 01 – HTML Form</span>
-<a class="open" href="CodeLab3t1.html">Open</a>
-</div>
+<!-- TASK LIST -->
 
 <div class="task">
-<span>Task 02 – Text Fields</span>
-<a class="open" href="CodeLab3t2.html">Open</a>
+<span>Task 01 – List Basic</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 03 – Radio Button</span>
-<a class="open" href="CodeLab3t3.html">Open</a>
+<span>Task 02 – List Cards</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 04 – Checkboxes</span>
-<a class="open" href="CodeLab3t4.html">Open</a>
+<span>Task 03 – Table</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 05 – Select</span>
-<a class="open" href="CodeLab3t5.html">Open</a>
+<span>Task 04 – Table Monthly Report</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 06 – Textarea</span>
-<a class="open" href="CodeLab3t6.html">Open</a>
+<span>Task 05 – Table + Search</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 07 – Password</span>
-<a class="open" href="CodeLab3t7.html">Open</a>
+<span>Task 06 – Basic Form Login</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 08 – Color Picker</span>
-<a class="open" href="CodeLab3t8.html">Open</a>
+<span>Task 07 – Table Master Actions</span>
+<a class="open">Open</a>
 </div>
 
 <div class="task">
-<span>Task 09 – HTML Media Video</span>
-<a class="open" href="CodeLab3t9.html">Open</a>
-</div>
-
-<div class="task">
-<span>Task 10 – HTML Media Audio</span>
-<a class="open" href="CodeLab3t10.html">Open</a>
-</div>
-
-<div class="task">
-<span>Task 11 – Play Youtube</span>
-<a class="open" href="CodeLab3t11.html">Open</a>
-</div>
-
-<div class="task">
-<span>Task 12 – Case Study 1 | User Registration</span>
-<a class="open" href="CodeLabCase1.html">Open</a>
-</div>
-
-<div class="task">
-<span>Task 13 – Case Study 2 | User Details</span>
-<a class="open" href="CodeLabCase2.html">Open</a>
+<span>Task 08 – Card Details</span>
+<a class="open">Open</a>
 </div>
 
 </div>
