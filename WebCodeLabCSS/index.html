@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Code Lab CSS</title>
+
+<style>
+
+body{
+font-family:Segoe UI;
+background:#020617;
+color:white;
+margin:0;
+}
+
+.container{
+width:1000px;
+margin:auto;
+padding:40px 0;
+}
+
+h1{
+text-align:center;
+margin-bottom:10px;
+}
+
+.date{
+text-align:center;
+color:#818cf8;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.05);
+transition:0.3s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 20px rgba(99,102,241,0.5);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+color:#9ca3af;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.button{
+display:inline-block;
+padding:6px 12px;
+background:#6366f1;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-size:13px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Web Code Lab CSS</h1>
+<div class="date">30 March 2026</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Task 01</h3>
+<p>List Basic (W3.CSS Lists)</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 02</h3>
+<p>List Cards (W3.CSS Cards)</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 03</h3>
+<p>Table (W3.CSS Tables)</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 04</h3>
+<p>Table Monthly Report</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 05</h3>
+<p>Table + Search (Javascript)</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 06</h3>
+<p>Basic Form Login</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 07</h3>
+<p>Table Master Actions</p>
+<a class="button">View</a>
+</div>
+
+<div class="card">
+<h3>Task 08</h3>
+<p>Card Details</p>
+<a class="button">View</a>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
