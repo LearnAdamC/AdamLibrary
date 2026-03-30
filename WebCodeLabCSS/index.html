@@ -5,64 +5,80 @@
 
 <style>
 
-body{
-font-family:Segoe UI;
-background:#020617;
-color:white;
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:linear-gradient(180deg,#0f172a,#020617);
+color:white;
 }
 
 .container{
-width:1000px;
+width:900px;
 margin:auto;
-padding:40px 0;
+padding:60px 0;
 }
+
+/* BACK */
+
+.back{
+color:#818cf8;
+text-decoration:none;
+display:inline-block;
+margin-bottom:30px;
+}
+
+/* TITLE */
 
 h1{
-text-align:center;
-margin-bottom:10px;
+margin-bottom:15px;
 }
+
+/* DESC */
+
+.desc{
+color:#9ca3af;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+/* DATE */
 
 .date{
-text-align:center;
 color:#818cf8;
-margin-bottom:40px;
+margin-bottom:30px;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:20px;
-}
+/* TASK */
 
-.card{
+.task{
+display:flex;
+justify-content:space-between;
+align-items:center;
 background:#111827;
-padding:20px;
-border-radius:12px;
-border:1px solid rgba(255,255,255,0.05);
+padding:15px 20px;
+border-radius:10px;
+margin-bottom:12px;
 transition:0.3s;
-cursor:pointer;
 }
 
-.card:hover{
-transform:translateY(-5px);
-box-shadow:0 0 20px rgba(99,102,241,0.5);
+.task:hover{
+background:#1f2937;
 }
 
-.card h3{
-margin-bottom:10px;
+.task span{
+color:#d1d5db;
 }
 
-.card p{
-color:#9ca3af;
-font-size:14px;
-margin-bottom:10px;
-}
+/* BUTTON */
 
-.button{
-display:inline-block;
-padding:6px 12px;
-background:#6366f1;
+.open{
+background:linear-gradient(90deg,#6366f1,#8b5cf6);
+padding:6px 14px;
 border-radius:6px;
 text-decoration:none;
 color:white;
@@ -77,59 +93,58 @@ font-size:13px;
 
 <div class="container">
 
+<a class="back" href="../index.html">← Back to Home</a>
+
 <h1>Web Code Lab CSS</h1>
-<div class="date">30 March 2026</div>
 
-<div class="grid">
+<p class="desc">
+This week introduces Cascading Style Sheets (CSS) to control the visual presentation of web pages. 
+The discussion covers core concepts including selectors, the box model, color theory, and typography, 
+enabling students to separate content from design and create visually appealing layouts.
+</p>
 
-<div class="card">
-<h3>Task 01</h3>
-<p>List Basic (W3.CSS Lists)</p>
-<a class="button">View</a>
+<div class="date">Class 04 – 17 & 19 March 2026</div>
+
+<!-- TASK LIST -->
+
+<div class="task">
+<span>Task 01 – List Basic</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 02</h3>
-<p>List Cards (W3.CSS Cards)</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 02 – List Cards</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 03</h3>
-<p>Table (W3.CSS Tables)</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 03 – Table</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 04</h3>
-<p>Table Monthly Report</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 04 – Table Monthly Report</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 05</h3>
-<p>Table + Search (Javascript)</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 05 – Table + Search</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 06</h3>
-<p>Basic Form Login</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 06 – Basic Form Login</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 07</h3>
-<p>Table Master Actions</p>
-<a class="button">View</a>
+<div class="task">
+<span>Task 07 – Table Master Actions</span>
+<a class="open">Open</a>
 </div>
 
-<div class="card">
-<h3>Task 08</h3>
-<p>Card Details</p>
-<a class="button">View</a>
-</div>
-
+<div class="task">
+<span>Task 08 – Card Details</span>
+<a class="open">Open</a>
 </div>
 
 </div>
