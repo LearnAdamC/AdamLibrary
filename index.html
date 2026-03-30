@@ -49,11 +49,13 @@ font-size:24px;
 text-align:center;
 }
 
-/* CARD AREA */
+/* GRID */
 
 .grid{
 display:flex;
 justify-content:center;
+gap:25px;
+flex-wrap:wrap;
 }
 
 /* CARD */
@@ -100,7 +102,7 @@ color:white;
 font-size:13px;
 }
 
-/* CONTACT BOX */
+/* CONTACT */
 
 .contact{
 margin-top:80px;
@@ -132,43 +134,46 @@ font-size:13px;
 
 <div class="container">
 
+<!-- PROFILE -->
 <div class="hero">
-
 <div class="profile">
-
 <h1>Adam Chesta Budi</h1>
 <p>Teknik Informatika</p>
 <p>312310002</p>
-
+</div>
 </div>
 
-</div>
-
+<!-- TITLE -->
 <h2 class="section-title">Tugas Web Coding</h2>
 
+<!-- GRID -->
 <div class="grid">
 
+<!-- LAB 03 -->
 <div class="card" onclick="location.href='WebCodeLab03/'">
-
 <h3>Web Code Lab 03</h3>
-
 <p>HTML Forms and Media Elements</p>
-
 <div class="date">10 March 2026</div>
-
 <a class="button">Open Lab</a>
+</div>
 
+<!-- LAB CSS -->
+<div class="card" onclick="location.href='WebCodeLabCSS/'">
+<h3>Web Code Lab CSS</h3>
+<p>Styling with CSS</p>
+<div class="date">30 March 2026</div>
+<a class="button">Open Lab</a>
 </div>
 
 </div>
 
+<!-- CONTACT -->
 <div class="contact">
-
 <p>Email : adamraspberry5@gmail.com</p>
 <p>Phone : +6285607711200</p>
-
 </div>
 
+<!-- FOOTER -->
 <div class="footer">
 Adam Web Repository • 2026
 </div>
